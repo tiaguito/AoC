@@ -17,6 +17,7 @@ func concatStrings(str []string) string {
     }
     return s
 }
+
 func stringsToNums(str []string) []int {
     nums := []int{}
     s := concatStrings(str)
