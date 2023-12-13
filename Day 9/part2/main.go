@@ -56,7 +56,6 @@ func main() {
             matrix[i] = append([]int{matrix[i][0] - matrix[i+1][0]}, 
                                     matrix[i]...)
         }
-        fmt.Println(matrix)
 
         sum = sum + matrix[0][0]
     }
