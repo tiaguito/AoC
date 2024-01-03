@@ -2,8 +2,8 @@ package main
 
 import (
     "fmt"
-    "bufio"
-    "os"
+	"bufio"
+	"os"
 )
 
 var DX = [4]int{-1, 0, 1, 0}
